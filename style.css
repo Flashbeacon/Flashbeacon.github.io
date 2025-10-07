@@ -7,10 +7,11 @@
 	box-sizing: border-box;
 	scroll-behavior: smooth;
 }
-
-a, li {
+li {
 	list-style: none;
-	text-decoration: none;
+}
+a {
+	color: #fff;
 }
 
 body {
