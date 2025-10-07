@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CodedGalaxy's Portfolio</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <header id="header">
+    <h3>CodedGalaxy's Portfolio</h3>
+    <nav>
+      <li style="cursor: pointer;">About Me</li>
+    </nav>
+  </header>
+
+  <main>
+    <div class="hero">
+      <div class="hero__main">
+        <div class="hero__main__text">
+          <span style="font-family: monospace;font-size: 20px; text-transform: uppercase;" id="text"></span>
+          <div class="cursor"></div>
+          <br>
+          <button class="hero__btn">My Codebits</button>
+        </div>
+        <div class="hero__social__links">
+          <a href="https://www.github.com/Flashbeacon"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Showcase with stacked 3D cards -->
+    <div class="showcase">
+    	<div class="cards__heading">
+    		<h4>CodeBits</h4>
+    	</div>
+      <!-- Stacked Cards -->
+      <div class="animated-divider__child card1">
+        <div class="child__context">
+          <h5>ChatStream</h5>
+          <p>A clone of whatsapp, but only frontend is developed</p>
+          <button>View</button>
+        </div>
+        <div class="child__img">
+          <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=500" alt="Card1">
+        </div>
+      </div>
+
+      <div class="animated-divider__child card2">
+        <div class="child__context">
+          <h5>Animelist</h5>
+          <p>Lorem Ipsum Card 2</p>
+          <button>View</button>
+        </div>
+        <div class="child__img">
+          <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=500" alt="Card2">
+        </div>
+      </div>
+
+      <div class="animated-divider__child card3">
+        <div class="child__context">
+          <h5>Portfolio</h5>
+          <p>Lorem Ipsum Card 3</p>
+          <button>View</button>
+        </div>
+        <div class="child__img">
+          <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=500" alt="Card3">
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
