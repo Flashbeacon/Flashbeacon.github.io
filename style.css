@@ -7,6 +7,13 @@
 	box-sizing: border-box;
 	scroll-behavior: smooth;
 }
+
+img {
+	user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+
 li {
 	list-style: none;
 }
