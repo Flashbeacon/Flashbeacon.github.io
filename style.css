@@ -86,6 +86,7 @@ header.scrolled::after {
 }
 
 .hero__btn {
+	font-family: 'Poppins';
 	margin-top: 20px;
 	padding: 12px 28px;
 	background: #fff;
@@ -223,6 +224,7 @@ header.scrolled::after {
 	margin: 20px 0;
 	font-weight: 600;
 	transition: all 0.4s ease;
+	cursor: pointer;
 }
 
 .child__context button:hover {
